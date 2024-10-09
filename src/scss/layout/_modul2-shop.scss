@@ -1,7 +1,43 @@
 .modul2 {
+    width: 430px;
+    padding: 5%;
+    display: flex;
 
-    &__ {
-        padding: 10px;
-        margin: 10px;
+    &__parraf {
+            justify-content: center;
+        
+
+        &__one {
+            font-size: 90%;
+            color: $iconyborder-color
+
+        }
+
+        &__two {
+            color: black;
+            font-weight: 700;
+            font-size: 140%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        &__three {
+            font-size: 100%;
+            margin-bottom: 15%;
+        }
+
+        &__button {
+            align-items: flex-start;
+            color: $iconyborder-color;
+            background-color: $typo-color;
+            border-color: $iconyborder-color;
+            border-radius: 20px;
+            width: 40%;
+            padding: 3%;
+            font-weight: 700;
+            
+        }
+
     }
+ 
 }
