@@ -1,22 +1,37 @@
+.modul3 {
+    background-color: $modul3-color ;
+}
+
+// .modul3__section {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 1fr 1fr 1fr;
+//     gap: 20px
+        
+// }
 
 .modul3__section__image{
-    width: 320px;
-
-    // &:__image {
-    // width: 100%;
-
-    // }
-
+    width: 200px    
+    
 }
 
 .modul3__section__image__1 {
     width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px;
 }
 
 .modul3__section__image__2 {
     width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px;
 }
 
 .modul3__section__image__3 {
     width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px;
 }
