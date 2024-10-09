@@ -1,5 +1,13 @@
 .modul1 {
-    background-image: url(./images/cover.jpeg);
+    width: 100%;
+        &:__image{
+            background-image: url(./images/cover.jpeg);
+            width: 100px;
+            height: 100px;
+            
+        }
+        
     
 
 }
+
