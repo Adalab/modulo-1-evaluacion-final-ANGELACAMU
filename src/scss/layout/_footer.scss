@@ -1,19 +1,17 @@
 .footer {
     background-color: $footer-color;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
     &__container {
         color:$typo-color;
         padding: 5%;
-        display: flex;
         flex-direction: row;
-        justify-content: center;
         text-align:center;
 
-        &__list {
-            flex-direction: row;
-
-
-        }
+        
     }
 
 
