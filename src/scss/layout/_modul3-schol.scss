@@ -46,9 +46,20 @@
     box-shadow: 0 4px 8px;
 }
 
-.module3__button{
-    
-        &__text {
-            text-align: center;
-        }
+.module3__button {
+    display: flex;
+
+    &__text {
+        align-items:center;
+        color: $typo-color;
+        background-color: $iconyborder-color;
+        border: none;
+        border-radius: 20px;
+        width: 40%;
+        padding: 3%;
+        font-weight: 700;
+    }
 }
+
+// CREO QUE TENGO QUE HACER PAGINA DE CERO 
+// No entiendo porque no se aplican stilos al boton

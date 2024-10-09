@@ -1,0 +1,22 @@
+.footer {
+    background-color: $footer-color;
+
+    &__container {
+        color:$typo-color;
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align:center;
+
+        &__list {
+            flex-direction: row;
+
+
+        }
+    }
+
+
+}
+
+
