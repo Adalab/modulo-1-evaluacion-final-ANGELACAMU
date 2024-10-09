@@ -13,13 +13,26 @@
         text-align: center;
         
         &__text {
+            font-size: 180%;
+            padding: 10%;
             font-weight: 700;
             color: $typo-color
             
         }
         
         &__parraf {
+            padding-bottom: 20%;
+            font-size: 120%;
             color: $typo-color
+
+        }
+
+        &__image2 {
+            width: 40px;
+            border-radius: 50%;
+            background-color: $typo-color;
+
+
         }
     }
 
