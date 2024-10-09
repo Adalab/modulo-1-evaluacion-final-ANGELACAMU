@@ -1,3 +1,12 @@
+.parraf1 {
+    color: $footer-color;
+    
+}
+
+.parraf2 {
+    font-weight: 700;
+}
+
 .modul3 {
     background-color: $modul3-color ;
 }
@@ -11,6 +20,7 @@
 // }
 
 .modul3__section__image{
+    font-weight: 700;
     width: 200px    
     
 }
@@ -34,4 +44,11 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 4px 8px;
+}
+
+.module3__button{
+    
+        &__text {
+            text-align: center;
+        }
 }
