@@ -12,10 +12,20 @@
         flex-direction: row;
         text-align:center;
         
-        
+
+        &__button {
+            
+            align-items: flex-start;
+            border-radius: 50%;
+            
+            &__img{
+                
+            }
+
     
     }
 
+    }
 
 }
 
