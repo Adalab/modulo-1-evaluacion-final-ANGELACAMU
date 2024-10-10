@@ -3,6 +3,8 @@
     // width: auto;
     display: flex;
     justify-content: center;
+    
+    
 
     &__parraf1 {
         color: $footer-color;
@@ -15,7 +17,7 @@
 
     &__section__image {
         font-weight: 700;
-        width: 200px    
+        width: 200px;    
 
         &__1 {
             width: 100%;
