@@ -1,68 +1,63 @@
 .modul3 {
     background-color: $modul3-color ;
     // width: auto;
-}
+    display: flex;
 
-.parraf1 {
-    color: $footer-color;
-    
-    
-}
+    &__parraf1 {
+        color: $footer-color;
 
-.parraf2 {
+    }
+
+    &__parraf2 {
     font-weight: 700;
-}
+    }
 
+    &__section__image {
+        font-weight: 700;
+        width: 200px    
+
+        &__1 {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px;
+        }
+
+        &__2 {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px;
+        } 
+
+        &__3 {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px;
+        }
+
+    }
+
+    &__button__text {
+        align-items: center;
+        color: $typo-color;
+        background-color: $iconyborder-color;
+        border: none;
+        border-radius: 20px;
+        width: 10%;
+        padding: 3%;
+        font-weight: 700;
+
+    }
+
+    
+}
 
 // .modul3__section {
 //     display: grid;
 //     grid-template-columns: 1fr 1fr 1fr;
 //     grid-template-rows: 1fr 1fr 1fr;
 //     gap: 20px
-        
+
 // }
-
-.modul3__section__image{
-    font-weight: 700;
-    width: 200px    
-    
-}
-
-.modul3__section__image__1 {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px;
-}
-
-.modul3__section__image__2 {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px;
-}
-
-.modul3__section__image__3 {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px;
-}
-
-.module3__button {
-    display: flex;
-
-    &__text {
-        align-items:center;
-        color: $typo-color;
-        background-color: $iconyborder-color;
-        border: none;
-        border-radius: 20px;
-        width: 40%;
-        padding: 3%;
-        font-weight: 700;
-    }
-}
-
-// CREO QUE TENGO QUE HACER PAGINA DE CERO 
-// No entiendo porque no se aplican stilos al boton
