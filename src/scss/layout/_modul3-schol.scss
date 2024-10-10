@@ -3,6 +3,12 @@
     // width: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    
+    
     
     
 
@@ -22,7 +28,12 @@
         font-weight: 700;
         font-size: 15px;
         width: 200px; 
-        padding: 3%;   
+        padding: 3%;
+        
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
 
         &__1 {
             width: 100%;
