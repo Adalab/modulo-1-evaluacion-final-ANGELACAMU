@@ -9,12 +9,12 @@
 
     &__box {
         flex-direction: row;
-        padding: 20%;
+        padding: 10%;
         text-align: center;
         
         &__text {
-            font-size: 180%;
-            padding: 10%;
+            font-size: 50px;
+            padding: 5%;
             font-weight: 700;
             color: $typo-color
             
@@ -22,7 +22,7 @@
         
         &__parraf {
             padding-bottom: 20%;
-            font-size: 120%;
+            font-size: 20px;
             color: $typo-color
 
         }
